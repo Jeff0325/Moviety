@@ -9,7 +9,7 @@ html {
 }
 
 :root {
-	--primary-color: #1563a7;
+	--primary-color: #36c1bc;
 	--secondary-color: #0b3050;
 }
 
@@ -22,7 +22,7 @@ body {
 	height: 100%;
 	background: linear-gradient(
 		45deg,
-		#1563a7,  /* Change primary color to blue */
+		var(--primary-color),  /
 		var(--secondary-color)
 	);
 	font-family: "Poppins", sans-serif;
