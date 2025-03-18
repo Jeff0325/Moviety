@@ -9,20 +9,16 @@ html {
 }
 
 :root {
-	--primary-color: #36c1bc;
-	--secondary-color: #0b3050;
-}
-
-html {
-	height: 100%;
-	background-color: #1563a7; /* Set the background color of the entire page */
+	--primary-color: #87CEEB;
+	--secondary-color: #4e5494;
 }
 
 body {
 	height: 100%;
+	/* background-color: var(--primary-color); */
 	background: linear-gradient(
 		45deg,
-		var(--primary-color),  /
+		var(--primary-color),
 		var(--secondary-color)
 	);
 	font-family: "Poppins", sans-serif;
